@@ -1,0 +1,28 @@
+.chat {
+  height: 100%;
+
+  &__columns {
+    display: flex;
+    height: 100%;
+  }
+
+  &__sidebar {
+    width: 20%;
+    min-width: 200px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  &__messages {
+    flex-grow: 1;
+    overflow: auto;
+  }
+
+  &__form {
+    min-height: 100px;
+  }
+}

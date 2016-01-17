@@ -1,0 +1,26 @@
+@import "./mixins.css";
+
+.message-form {
+
+  @mixin row;
+  height: 100%;
+  padding: 10px;
+  padding-left: 0;
+
+  &__message,
+  &__submit {
+    float: left;
+  }
+
+  &__message {
+    height: 100%;
+    width: calc(100% - 60px);
+    margin-right: 20px;
+  }
+
+  &__submit {
+    height: 100%;
+    width: 40px;
+  }
+
+}

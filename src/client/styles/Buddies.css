@@ -1,0 +1,18 @@
+@import "./variables.css";
+
+.buddies {
+
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+
+  &__buddy {
+    padding: 10px;
+
+    &--me {
+      color: var(--color-user-me);
+    }
+  }
+
+
+}
